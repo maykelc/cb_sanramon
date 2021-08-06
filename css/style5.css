@@ -1,0 +1,26 @@
+body {
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    background: -webkit-linear-gradient(to right, #ebdf42 ,#f5220a);
+    background: linear-gradient(to right, #be0000, #bb5e54);
+}
+
+ul.nav-pills {
+    top: 20px;
+    position: ;
+}
+
+div.col-9 div {
+    height: 500px;
+}
+
+a{
+    cursor: pointer;
+    font-size: 15   px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+li{
+    list-style: none;
+}

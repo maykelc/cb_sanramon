@@ -1,0 +1,138 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style4.css">
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-sm bg-danger navbar-dark">
+        <!-- Brand/logo -->
+        <a class="navbar-brand" href="#">Logo</a>
+        <!-- Links -->
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="historia.html">Historia</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="oficiales.html">Oficiales</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="bombero.html">Bomberos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="bj.html">Brigada Juvenil</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="vehiculo.html">Vehiculos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto y Postulaciones</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="galeria.html">Galeria</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="jumbotron text-center bg-secondary">
+        <h1>Segunda Compañia Cuerpo de Bomberos La Granja San Ramon La Pintana</h1>
+        <p>Bomba La Bandera</p>
+    </div>
+
+    <div class="container"> <!--clase container (deja centrado, el fluid es todo)-->
+        <div class="row"> <!-- ahora viene una fila row-->
+            <!--aqui se hacen las columnas 
+            se puede trabajar con -sm -xl- -xs -xm (col -sm 3, asi le doy margen para la columna a elegir)
+            recordar que son 12 columnas en total siempre-->
+                <div class="col-sm-2"></div>
+                <div class="col-sm-8">
+
+                <li>
+                        <img src="img/postula.jpg" class="mx-auto d-block" style="width:100%" alt="">
+                </li>
+                <li>
+                    <img src="img/vegeta.jpg" class="mx-auto d-block" style="width:100%" alt="">
+                </li>
+                <li>
+                    <form action="registro.html" method="get">
+                        <div class="form-group">
+                            <label for="txtNombre">Nombre</label>
+                        <input type="text" placeholder="Nombre" name="txtNombre" id="txtNombre"class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="txtFecha">Fecha</label>
+                            <input type="date" name="txtFecha" id="txtFecha"class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="txtNumero"> Numero </label>
+                            <input type="number" placeholder="Numero" name="txtNumero" id="txtNumero"class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="txtComentario">Comentario</label>
+                            <input type="text" placeholder="Comente" name="txtComentario" id="txtComentario" class="form-control">    
+                        </div>
+                        <div class="form-group text-center">
+                            <input type="submit" name="btnEnviar" id="btnEnviar" class="btn btn-success">
+                            <input type="reset" name="btnLimpiar" value="Limpiar" id="btnLimpiar" class="btn btn-danger " >
+                        </div>
+                        
+                    </form>
+                </li>
+
+                    
+                    <div class="mapa text-center">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3325.1101554837355!2d-70.64844888494927!3d-33.550514180745395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662da403268d543%3A0x9439dd2fe2e5bc32!2sLa%20Bandera%209800%2C%20San%20Ram%C3%B3n%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses!2scl!4v1628220998492!5m2!1ses!2scl" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+
+                </div>
+                <div class="col-sm-2"></div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="jumbotron bg-secondary">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h5 class="footer-titulo">Version Prueba Footer</h5>
+                    <p class="footer-parrafo justify-content">texto de prueba del contenido del footer, soporte. cont. alt. con. 1234567890 ¡? pagina administrada por maykel / derechos reservados</p>
+
+                </div>
+                <div class="col-sm-6">
+                    <ul class="navbar-nav">
+                        <h5 class="footer-rsociales" > Redes Sociales</h5>
+                        <li><a class="nav-link" href="www.facebook.com">Facebook Segunda Compañia</a></li>
+                        <li><a class="nav-link" href="www.twitter.com">Twitter Segunda Compañia</a></li>
+                        <li><a class="nav-link" href="www.instagram.com">Instagram de Compañia</a></li>
+                        <li><a class="nav-link" href="www.cbgranja.cl">Cuerpo De Bomberos La Granja - San ramon - La Pintana </a></li>
+                        <li><a class="nav-link" href="www.Bomberos.cl">Cuerpo De Bomberos De Chile </a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright-maykel text-center">
+                <div class="copyright">
+                    @ 2021 Copyright
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

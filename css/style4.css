@@ -1,0 +1,28 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: -webkit-linear-gradient(to right, #ebdf42 ,#f5220a);
+    background: linear-gradient(to right, #be0000, #bb5e54);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+  /* Make the image fully responsive */
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+a{
+    cursor: pointer;
+    font-size: 15   px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+li{
+    list-style: none;
+}
